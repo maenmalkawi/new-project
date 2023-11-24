@@ -1,0 +1,83 @@
+body{
+    background-color:white;
+    margin:0;
+}
+#divContent{
+    margin-top: 100px;
+}
+
+#naveBar{
+    background-color:#ef5350;
+    overflow: hidden;
+    position: static;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+#naveBar img:hover{
+    border: white 3px solid;
+    width: 200px;
+    height: 200px;
+}
+#naveBar img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+#naveBar h1{
+    float: left;
+    color: white;
+    margin-left: 500px;
+    margin-top: 30px;
+    font-size: 40px;
+}
+#naveBar h1:hover{
+    color: white;
+}
+#naveBar div{
+    float: right;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+#naveBar div button{
+    background-color: white;
+    border:  3px solid;
+    border-radius: 15px;
+    color: #ef5350;
+    font-size: 20px;
+    margin-right: 20px;
+    /*display: list-item;
+     */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#naveBar div button:hover{
+    background-color:black;
+    color: white;
+    border: white 3px solid;
+    border-radius: 10px;
+}
+
+
+
+
+
+#footer{
+    background-color:#ef5350;
+    overflow: hidden;
+    position:static;
+    bottom: 0;
+    width: 100%;
+    
+}
+#footer p{
+    color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+}
