@@ -3,7 +3,8 @@ body{
     margin:0;
 }
 #divContent{
-    margin-top: 100px;
+    margin-top: 200px;
+    
 }
 
 #naveBar{
@@ -20,7 +21,7 @@ body{
     width: 200px;
     height: 200px;
 } */
-#naveBar img{
+#naveBar img {
     float: left;
     width: 100px;
     height: 100px;
@@ -29,7 +30,7 @@ body{
  #naveBar h1{
     float: left;
     color: white;
-    margin-left: 500px;
+    margin-left: 300px;
     margin-top: 30px;
     font-size: 40px;
 }
@@ -37,9 +38,9 @@ body{
     color: white;
 }
  #naveBar div{ 
-    float: right;
+    float:right;
     margin-top: 30px;
-    margin-right: 100px;
+    margin-right: 10px;
 }
 #naveBar div button{ 
     background-color: white;
@@ -65,8 +66,7 @@ body{
 
 #gridMain{
     display: grid;
- 
-     grid-template-columns: auto auto auto auto;
+ grid-template-columns: auto auto auto auto;
  
      grid-gap: 20px;
      background-color: white;
@@ -96,8 +96,7 @@ body{
     overflow:auto;
     position:static;
     bottom: 0;
-    width: 100%;
-    
+    width: 100%;   
 }
  #footer p{ 
     color: white;
