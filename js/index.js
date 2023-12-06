@@ -41,3 +41,4 @@ console.log(img);
 // img[3].width= '1000';
 
 // img[7].src='https://www.w3schools.com/js/pic_bulbon.gif';
+
